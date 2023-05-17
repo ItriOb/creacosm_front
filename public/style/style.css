@@ -1,32 +1,28 @@
 @font-face {
-    font-family: 'Montserrat';
-    src: url('../fonts/Montserrat-Medium.ttf');
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Medium.ttf");
 }
 
-body{
-    font-family: 'Montserrat';
+body {
+  font-family: "Montserrat";
 }
 
-
-#logo{
-    width: 80px;
-    height:70px;
+#logo {
+  width: 80px;
+  height: 70px;
 }
-
 .conn,
 .conn:active,
 .conn:visited,
 .conn:focus {
-    border-color: #0b65ab;
-    border-radius: 5px;
-    
+  border-color: #0b65ab;
+  border-radius: 5px;
 }
 
-
-.conn:hover{
-    background-color: #0b65ab;
-    color: white;
-    border-radius: 5px;
+.conn:hover {
+  background-color: #0b65ab;
+  color: white;
+  border-radius: 5px;
 }
 
 .inscr,
@@ -34,36 +30,338 @@ body{
 .inscr:active,
 .inscr:visited,
 .inscr:focus {
-    background-color: #0b65ab;
-    border-radius: 5px;
-    border-color: #0b65ab;
+  background-color: #0b65ab;
+  border-radius: 5px;
+  border-color: #0b65ab;
 }
 
-#inscription{
-    margin-left:10%;
+#inscription {
+  margin-left: 10%;
 }
 
-.socials{
-    width: 20px;
-    height: 20px;
-    margin-left: 10px;
+.socials {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
 }
 
-.footer{
-    padding-top: 20px;
+.footer {
+  padding-top: 20px;
 }
 
-.centerText{
-    text-align: center;
-    font-family: 'Montserrat';
-    color: white;
-    
+.centerText {
+  text-align: center;
+  font-family: "Montserrat";
+  color: white;
 }
 
-.box{
-    background-color: #0b65ab;
+.centerText1 {
+  text-align: center;
+  font-family: "Montserrat";
+  color: black;
 }
 
-.para{
-    display: block;
+.box {
+  background-color: #0b65ab;
+}
+
+.para {
+  display: block;
+}
+
+.right-arrow {
+  height: 15px;
+  width: 15px;
+}
+
+.try {
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.box1 {
+  padding-top: 110px;
+  padding-bottom: 110px;
+}
+
+.box2 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.black-box {
+  background-color: black;
+  height: 100%;
+  width: 300px;
+  padding-bottom: 500px;
+}
+
+h4 {
+  font-size: 10px;
+}
+
+.ensemble {
+  display: flex;
+  padding-left: 35px;
+}
+
+.ensemble .home,
+.ensemble .side {
+  flex: 1;
+}
+.home {
+  height: 16px;
+  width: 16px;
+  margin-right: 10px;
+}
+
+.side {
+  padding-top: 2px;
+}
+
+.deco {
+  margin-left: 50px;
+  margin-top: 30px;
+  border-radius: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.titreEns {
+  font-size: 30px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.hash {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.util1 {
+  margin-right: 250px;
+}
+
+.modifier,
+.modifier:hover,
+.modifier:active,
+.modifier:visited,
+.modifier:focus {
+  background-color: #0b65ab;
+  border-radius: 20px;
+  border-color: #0b65ab;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 20px;
+}
+
+.titre {
+  color: gray;
+}
+
+.infos {
+  padding-top: 10px;
+}
+
+.monCompte {
+  margin-bottom: 30px;
+  padding-bottom: 50px;
+}
+
+.shadow {
+  -webkit-box-shadow: 0 3px 5px -4px black;
+  -moz-box-shadow: 0 3px 5px -4px black;
+  box-shadow: 0 3px 5px -4px black;
+}
+
+.navbar {
+  border: none !important;
+}
+
+.shadowtop {
+  -webkit-box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.75);
+  box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.75);
+}
+
+.body1 {
+  background-color: #f7f8fa;
+  height: 1000px;
+}
+
+.logo1 {
+  margin-left: 33.5%;
+  height: 90px;
+  width: 90px;
+  margin-top: 50px;
+}
+.centerDiv {
+  display: grid;
+  place-items: center;
+}
+
+.inscrire,
+.inscrire:hover,
+.inscrire:active,
+.inscrire:visited,
+.inscrire:focus {
+  background-color: #0b65ab;
+  border-radius: 20px;
+  border-color: #0b65ab;
+  padding-left: 260px;
+  padding-right: 260px;
+  margin-top: 20px;
+}
+
+.body2 {
+  background-color: #f7f8fa;
+  height: 700px;
+}
+
+.search-container {
+  position: relative;
+}
+
+.search-input {
+  padding-right: 30px; /* Make room for the icon */
+}
+
+.search-icon {
+  float: right;
+}
+.separate {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.img-carousel {
+  width: 100%;
+  height: 40vh;
+  object-fit: cover;
+}
+
+.crd {
+  padding-bottom: 30px;
+  width: 60%;
+  margin-left: 15%;
+  margin-top: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  margin-bottom: 40px;
+}
+
+.body3 {
+  background-color: #f7f8fa;
+}
+
+.radio-button {
+  margin-top: 50px;
+}
+
+#ecrireRep {
+  background-color: #f7f8fa;
+}
+
+.adminIcons {
+  margin-right: 10px;
+}
+
+.contenaire {
+  height: 100%;
+}
+
+.sidebar-item {
+  margin-bottom: 30px;
+}
+
+.dashboard-icons {
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+}
+
+.card-right {
+  margin-left: 10px;
+}
+
+.rowStyle {
+  background-color: #f8f9fb;
+  border-radius: 10px;
+  padding-top: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-bottom: 10px;
+}
+
+.titSond {
+  color: #757576;
+}
+
+.rowStyle1 {
+  padding-top: 25px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.titSond1 {
+  color: black;
+}
+
+.row-margin {
+  margin-top: 30px;
+}
+
+.card-padding {
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.crd-title {
+  margin-bottom: 20px;
+}
+
+.logoSideBar {
+  width: 16px;
+  height: 16px;
+}
+
+
+.chart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.loader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.spinner {
+  border: 6px solid #f3f3f3; /* Light gray */
+  border-top: 6px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.message {
+  font-size: 1.2rem;
+  margin-top: 10px;
 }

@@ -2,7 +2,8 @@ import React from "react";
 
 const Footer = () => {
     return (
-        <footer class="footer border-top border-dark footer"> 
+        
+        <footer class="footer border-dark footer"> 
         <div class="container">
         <div class="row">
         <div class="col-md-3">
